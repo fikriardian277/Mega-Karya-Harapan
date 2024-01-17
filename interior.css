@@ -159,7 +159,6 @@ body {
   margin-bottom: 0.8rem;
   font-size: 1.2rem;
   line-height: 2.1;
-  font-weight: lighter;
 }
 .about .row .content a {
   color: var(--secondbg);
@@ -239,6 +238,7 @@ footer .credit a {
   margin-top: 1rem;
   align-items: center;
 }
+
 .menu .menu-card {
   text-align: left;
   border: 1px solid #666;
@@ -246,6 +246,7 @@ footer .credit a {
   background-color: var(--secondprimary);
   border-radius: 10px;
 }
+
 .menu .menu-card .menu-image {
   display: flex;
   padding: 1rem 1rem;
@@ -262,6 +263,23 @@ footer .credit a {
 .menu .paragraf {
   line-height: 1.5;
   padding: 1rem 1rem;
+}
+.button {
+  text-align: center;
+  margin-top: 4rem;
+}
+.button a {
+  color: var(--primary);
+  background-color: var(--secondbg);
+  font-size: 1.3rem;
+  padding: 0.5rem 0.5rem;
+  border: 1px solid var(--primary);
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+.button a:hover {
+  color: var(--primary);
+  background-color: var(--secondprimary);
 }
 
 /* menu section end */
