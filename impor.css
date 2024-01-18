@@ -159,7 +159,6 @@ body {
   margin-bottom: 0.8rem;
   font-size: 1.2rem;
   line-height: 2.1;
-  font-weight: lighter;
 }
 .about .row .content a {
   color: var(--secondbg);
