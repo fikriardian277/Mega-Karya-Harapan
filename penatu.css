@@ -263,6 +263,23 @@ footer .credit a {
   line-height: 1.5;
   padding: 1rem 1rem;
 }
+.button {
+  text-align: center;
+  margin-top: 4rem;
+}
+.button a {
+  color: var(--primary);
+  background-color: var(--secondbg);
+  font-size: 1.3rem;
+  padding: 0.5rem 0.5rem;
+  border: 1px solid var(--primary);
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+.button a:hover {
+  color: var(--primary);
+  background-color: var(--secondprimary);
+}
 
 /* menu section end */
 
